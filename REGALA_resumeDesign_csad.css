@@ -1,0 +1,44 @@
+
+ul.j {
+  border-left: 5px solid green;
+  background-color: white;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+
+body{
+ font-family: Verdana, Tahoma,'Trebuchet MS', Sans-serif;
+ color: green;
+ background-color: white;
+}
+
+h1 {
+font-weight: bold;
+font-family: Jenson,Baskerville ,Cambria , Serif;
+}
+
+h2{
+  background-color: white;
+  font-family: Jenson,Baskerville ,Cambria , Serif;
+  padding: 10px;
+}
+
+body {
+background-image: url('https://i.pinimg.com/564x/0a/ba/40/0aba409f8e3907af5f0991567ce6b186.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+/* Pseudo-class Selector */
+h1:hover,
+h2:hover {
+  color: #FF69B4;
+}
+
+div.a h1 {
+  font:small-caps bold 2.5em/1.25em Georgia,serif;
+	text-align:center;
+  text-shadow:7px 1px 3px white;
+}

@@ -1,0 +1,87 @@
+/* CSS RULE OF SPECIFICITY /
+/ Element Selector */
+body {
+font-family: Verdana, Tahoma, 'Trebuchet MS', sans-serif;
+color: green;
+background-color: #FFC0CB;
+}
+
+/* Class Selector */
+div.container {
+margin: 0 auto;
+padding: 20px;
+max-width: 800px;
+
+}
+
+/* ID Selector */
+header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* Pseudo-class Selector */
+h1:hover,
+h2:hover {
+  color: #FF69B4;
+}
+
+
+/* Grouping Selectors */
+#skills, #hobbies, #interest {
+margin-bottom: 20px;
+}
+
+/* Child Selector */
+#skills > div, #hobbies > div, #interest > div {
+background-color: white;
+opacity: 0.7;
+padding: 10px;
+border-radius: 15px;
+}
+
+/* CSS COMBINATORS /
+/ Descendant Selector */
+main p {
+text-indent: 50px;
+}
+
+/* Adjacent Sibling Selector */
+h2 + div {
+margin-top: 10px;
+
+}
+
+/* SPECIFICITY AND THE CASCADE /
+/ Increase specificity for h1 in header */
+header h1 {
+font-weight: bold;
+font-family: Jenson, Baskerville, Cambria, serif;
+font:small-caps bold 2.5em/1.25em Georgia,serif;
+text-align:center;
+text-shadow:7px 1px 3px white;
+}
+
+/* CSS BACKGROUND PROPERTIES */
+body {
+background-image: url('https://i.pinimg.com/564x/0a/ba/40/0aba409f8e3907af5f0991567ce6b186.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+/* CSS FONT PROPERTIES */
+#skills h2, #hobbies h2, #interest h2 {
+font-size: 24px;
+line-height: 1.2;
+font:small-caps bold 2.5em/1.25em Georgia,serif;
+text-align:center;
+text-shadow:7px 1px 3px white;
+}
+
+/* CSS SHORTHAND PROPERTIES */
+div {
+padding: 10px 20px;
+border: 1px solid black;
+}
+
